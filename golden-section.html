@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    
+    <link href="css/normalize.css" type="text/css" rel="stylesheet"> <!-- type не обязателен -->
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <title>Как поймать льва в пустыне?</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/cloud.png" alt="Как поймать льва в пустыне" width="455" heigth= "170"></a>
+    </header>
+    <div class="content-bg">
+       <div class="content-border">
+            <div class="content">
+                <selection>
+                   <div class="rightColumn">
+                       <nav>
+                           <ul class="menu">
+                                <li><a href="index.html">Главная страница</a></li>
+                                <li><a href="assumption.html">Допущения</a></li>
+                                <li><a href="iteration.html">Метод простых итераций</a></li>
+                                <li><a href="random-number.html">Метод случайных чисел</a></li>
+                                <li><a href="dixotomia.html">Метод дихотомии</a></li>
+                                <li class="current">Метод золотого сечения</li>
+                           </ul>
+                       </nav>
+                       <aside>
+                           <h3><img id="interesting" src="images/interesting.png" alt="Интересная информация" width="164" heigth= "28"></h3>
+                           <p>Охотничий участок льва может иметь длину и ширину до тридцати километров.</p>
+                           <p>Лев ревет только в том случае, когда сообщает, что территория принадлежит ему или провозглашает себя царем природы.</p>
+                       </aside>
+                   </div>
+                   <article class="leftColumn">
+                       <h1><img src="images/golden-title.png" alt="Метод золотого сечения" width="286" heigth= "40"></h1>
+                       <p>Золотым сечением называется принцип деления отрезка на две части, при этом бoльшая часть отрезка относится к меньшей части так же, как длина всего отрезка к большей его части. Наглядно это показано на рис. 1.</p>
+                       <figure>
+                           <p><img src="images/fig5-1.png" alt="Рис. 1" width="400" height="134"></p>
+                           <figcaption>Рис. 1. Пропорции золотого сечения</figcaption>
+                       </figure>
+                       <p>Золотое сечение характеризуется следующим соотношением:</p>
+                       <p><img src="images/formula1.png" width="47" height="37"></p>
+                       <p>Учитывая, что <em>C = A + B</em> в итоге получим квадратное уравнение, корнем которого будет выражение <img src="images/formula2.png" width="45" height="42">.</p>
+                       <p>Вернемся к ловле льва. Метод золотого сечения является разновидностью метода дихотомии, при этом область пустыни делится не на две равные части, а в пропорции золотого сечения (рис. 2).</p>
+                       <figure>
+                           <p><img src="images/fig5-2.png" alt="Рис. 2" width="381" height="252"></p>
+                           <figcaption>Рис. 2. Деление пустыни на две части</figcaption>
+                       </figure>
+                       <p>Последовательное деление пустыни по вертикали и горизонтали продолжается до тех пор, пока оставшаяся часть по размерам не будет сопоставима с размерами клетки. Остается только накрыть полученный участок клеткой и лев окажется пойман.</p>
+                       <p>На рис. 3 показаны итерации ловли льва методом золотого сечения.</p>
+                       <figure>
+                           <p><img src="images/fig5-3.png" alt="Рис. 3" width="381" height="252"></p>
+                           <figcaption>Рис. 3. Количество итераций</figcaption>
+                       </figure>
+                       <p>Деление области на две неравные части позволяет повысить точность поиска или сократить количество итераций по сравнению с методом дихотомии.</p>
+                   </article>
+                </selection>
+            </div>
+       </div>
+    </div>
+    <footer>
+       <div class="footer-bg">
+            <div class="copyright">
+               <img id="lion" src="images/lion.png" alt="Лев"  width="135" heigth="85">
+                <p><strong>Учебный сайт «Как поймать льва в пустыне»</strong></p>
+                <p>&copy; Влад Мержевич <em>(Попыталась реализовать по-своему <strong>Indiel</strong>)</em></p>
+                <p>Здесь обычно пишут, что воровать контент нельзя, но для разнообразия напишем, что воровать можно. Тем более, что все картинки на сайте заимствованы с бесплатного клипарта.</p>
+            </div>
+       </div>
+    </footer>
+</body>
+</html>
+
+

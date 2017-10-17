@@ -80,12 +80,20 @@ footer {
 
 /*2.Filling-------------------------------------------------------------------------------------------------------------------------------*/
 
+body {
+    text-align: justify;
+}
+
 section {
     margin: 30px 10px;
 }
 
 h1 {
     font-size: 140%;
+}
+
+h2 {
+    font-size: 120%;
 }
 
 p {
@@ -98,9 +106,11 @@ article {
 
 .leftColumn {
     margin: 20px 280px 20px 10px;
-    
-    height: 400px;
-    border: 1px solid #8706AE;
+}
+
+figure {
+    text-align: center;
+    font-style: italic;
 }
 
 /*3.Warning-------------------------------------------------------------------------------------------------------------------------------*/
@@ -139,6 +149,5 @@ aside {
     margin: 30px auto 10px auto;
     padding: 10px;
     background-color: #F2EFE6;
-    text-align: justify;
     box-shadow: 5px 15px 3px #959595;
 }

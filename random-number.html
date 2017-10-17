@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    
+    <link href="css/normalize.css" type="text/css" rel="stylesheet"> <!-- type не обязателен -->
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <title>Как поймать льва в пустыне?</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/cloud.png" alt="Как поймать льва в пустыне" width="455" heigth= "170"></a>
+    </header>
+    <div class="content-bg">
+       <div class="content-border">
+            <div class="content">
+                <selection>
+                   <div class="rightColumn">
+                       <nav>
+                           <ul class="menu">
+                                <li><a href="index.html">Главная страница</a></li>
+                                <li><a href="assumption.html">Допущения</a></li>
+                                <li><a href="iteration.html">Метод простых итераций</a></li>
+                                <li class="current">Метод случайных чисел</li>
+                                <li><a href="dixotomia.html">Метод дихотомии</a></li>
+                                <li><a href="golden-section.html">Метод золотого сечения</a></li>
+                           </ul>
+                       </nav>
+                       <aside>
+                           <h3><img id="interesting" src="images/interesting.png" alt="Интересная информация" width="164" heigth= "28"></h3>
+                           <p>Зафиксированы случаи, когда лев в одиночку справлялся с африканским буйволом, вес которого превышает 600 килограмм, а характер оставляет желать лучшего.</p>
+                       </aside>
+                   </div>
+                   <article class="leftColumn">
+                       <h1><img src="images/random-title.png" alt="Метод случайных чисел" width="273" heigth= "40"></h1>
+                       <p>Разделим пустыню на ряд элементарных прямоугольников, размер которых совпадает с размером клетки для льва (рис. 1). После чего перебираем полученные прямоугольники, каждый раз выбирая заданную область случайным образом. Если в данной области окажется лев, то мы поймаем его, накрыв клеткой.</p>
+                       <figure>
+                           <p><img src="images/fig3-1.png" alt="Рис. 1" width="381" height="252"></p>
+                           <figcaption>Рис. 1. Разбиение пустыни на ряд элементарных прямоугольников</figcaption>
+                       </figure>
+                       <p>Метод случайных чисел является вариантом метода простых итераций, в котором происходит перебор участков пустыни для поиска льва. Разница только в том, что области выбираются не последовательно, а случайно. Таким образом, в лучшем случае поиск может закончиться сразу же, а в худшем — превратиться в метод перебора.</p>
+                       <p>Поскольку номер области выбирается случайно, он может выпасть больше одного раза. Однако переходить второй раз в уже просмотренную область, необходимости нет.</p>
+                   </article>
+                </selection>
+            </div>
+       </div>
+    </div>
+    <footer>
+       <div class="footer-bg">
+            <div class="copyright">
+               <img id="lion" src="images/lion.png" alt="Лев"  width="135" heigth="85">
+                <p><strong>Учебный сайт «Как поймать льва в пустыне»</strong></p>
+                <p>&copy; Влад Мержевич <em>(Попыталась реализовать по-своему <strong>Indiel</strong>)</em></p>
+                <p>Здесь обычно пишут, что воровать контент нельзя, но для разнообразия напишем, что воровать можно. Тем более, что все картинки на сайте заимствованы с бесплатного клипарта.</p>
+            </div>
+       </div>
+    </footer>
+</body>
+</html>
+
+
